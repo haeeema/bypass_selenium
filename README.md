@@ -26,7 +26,7 @@ pip3 install selenium selenium-stealth selenium-wire undetected-chromedriver
 ```
 ## Notion
 
-[✅Selenium_Bypass](https://www.notion.so/haminpark/Selenium_Bypass-Cloudflare-f4fb5934e63147c29d1623e6de556e0f)
+[✅ Selenium_Bypass](https://www.notion.so/haminpark/Selenium_Bypass-Cloudflare-f4fb5934e63147c29d1623e6de556e0f)
 
 ## Comments
 
