@@ -1,14 +1,14 @@
 # A Bypass using Selenium
 
-The Bypass Bot is a Python script designed to automate browser interactions using the `selenium-wire` libraries, utilizing a detected Chrome browser instance. This bot is created to navigate websites while evading detection mechanisms, providing a versatile tool for various web scraping, automation, or testing tasks.
+I attempted to create a web scraping bot to gather job information. Initially, I utilized the `Selenium` library; however, I encountered a challenge since Selenium doesn't directly provide status codes like traditional web requests. To address this, I turned to the `selenium-wire` library. Unfortunately, I encountered issues with anti-bot measures, which prevented me from accessing the target website. Subsequently, I tried using both `selenium-stealth` and `undetected chromebrowser` solutions, but unfortunately, these attempts were also unsuccessful.
+
+Please help me.
 
 ## Features
 
 - **Network Manipulation**: Utilizing `selenium-wire`, the bot has the ability to intercept and modify network requests, which can be useful for debugging, data manipulation, or other advanced use cases.
 
 - **Stealthy Browsing**: The bot employs `selenium-stealth` to mimic human-like browsing behavior, including user agents, languages, and other attributes, reducing the chances of being detected as a bot.
-
-- **Detected Chrome Browser**: The bot leverages a detected Chrome browser instance, enabling compatibility with websites that use anti-bot mechanisms to detect automated browser sessions.
 
 ## Installation
 
