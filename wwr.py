@@ -24,7 +24,7 @@ def extract_wwr_jobs(keyword):
                 anchors = post.find_all("a")
                 anchor = anchors[1]
                 link = anchor["href"]
-                company, kind, region = anchor.find_all(
+                company, region = anchor.find_all(
                     "span", class_="company")
                 # Shortcut
                 title = anchor.find("span", class_="title")

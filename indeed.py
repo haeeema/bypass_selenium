@@ -33,8 +33,9 @@ def extract_indeed_jobs(keyword):
         browser.get(final_url)
 
         soup = BeautifulSoup(browser.page_source, "html.parser")
-        jobs_list = soup.find("ul", class_="jobsearch-ResultsList")
-        jobs = jobs_list.find_all("li", recursive=False)
+        jobs_list = soup.find("ul", class_="eu4oa1w0")
+        jobs = jobs_list.find_all("li", class_="eu4oa1w0")
+        # recursive=False
         # Beautifulsoup find all of "li"
         # We only want to search for "li"s that are directly under ul tag.
         for job in jobs:
